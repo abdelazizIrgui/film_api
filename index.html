@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/logo.png">
+  </head>
+  <body>
+    <div class="overlay">
+      <!-- Navbar -->
+      <nav>
+        <div class="logo">
+          <img src="./img/logo.png" alt="" />
+          <h2>MyMovies</h2>
+        </div>
+        <div class="nav-links" id="nav-links">
+          <a href="#">Home</a>
+          <a href="#">Popular</a>
+          <a href="#">Top Rated</a>
+          <a href="#">Login</a>
+        </div>
+        <div class="hamburger" id="hamburger">☰</div>
+      </nav>
+
+      <!-- Header -->
+      <div class="intro">
+        <h1>Unlimited Movies, TV Shows & More</h1>
+        <input
+          type="text"
+          id="search-box"
+          placeholder="Search for a movie..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <!-- Movies -->
+      <div id="movie-container"></div>
+
+      <!--carde informatin -->
+      <div class="info-card">
+        <div class="content">
+          <img src="img/enjoy.jpeg" alt="icon1" />
+          <div class="card-text">
+            <span style="font-weight: bold">Enjoy on your TV</span> <br />
+            Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray
+            players, and more.
+          </div>
+        </div>
+
+        <div class="content">
+          <img src="img/watchanywhare.jpeg" alt="icon2" />
+          <div class="card-text">
+            <span style="font-weight: bold">Watch everywhere</span> <br />
+            Stream unlimited movies and TV shows on your phone, tablet, laptop,
+            and TV
+          </div>
+        </div>
+
+        <div class="content">
+          <img src="img/promotion.jpeg" alt="icon2" />
+          <div class="card-text">
+            <span style="font-weight: bold">Watch Free for 3 Months</span>
+            <br />
+            Enjoy unlimited movies on us. Sign up today and start your 3-month
+            free adventure — no strings attached!
+          </div>
+        </div>
+
+        <div class="content">
+          <img src="img/download.png" alt="icon2" />
+          <div class="card-text">
+            <span style="font-weight: bold"
+              >Download your shows to watch offline</span
+            >
+            <br />Save your favorites easily and always have something to watch
+          </div>
+        </div>
+      </div>
+
+      <!-- SECTION DES COMMENTAIRE -->
+      <div class="comments-card">
+        <div class="comment">
+          <div class="comment-question">
+            <span>How can I watch movies on this site?</span>
+            <span class="toggle-icon">+</span>
+          </div>
+          <div class="comment-answer">
+            You can stream movies directly by clicking the "Watch Now" button on
+            the movie's page. Some movies may require you to create a free
+            account.
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-question">
+            <span>Is it free to watch movies?</span>
+            <span class="toggle-icon">+</span>
+          </div>
+          <div class="comment-answer">
+            Many of our movies are available for free. Some premium or new
+            releases may require a small rental or subscription fee.
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-question">
+            <span> Can I download movies to watch offline?</span>
+            <span class="toggle-icon">+</span>
+          </div>
+          <div class="comment-answer">
+            At the moment, we offer online streaming only. Downloading movies
+            for offline viewing is not yet available.
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-question">
+            <span>Do I need to create an account?</span>
+            <span class="toggle-icon">+</span>
+          </div>
+          <div class="comment-answer">
+            You can browse freely, but to watch movies or create a watchlist,
+            you will need to sign up for a free account.
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-question">
+            <span>Are the movies available in HD?</span>
+            <span class="toggle-icon">+</span>
+          </div>
+          <div class="comment-answer">
+            Yes! Most of our movies are available in HD and even 4K where
+            available. Quality options can be adjusted in the video player.
+          </div>
+        </div>
+
+        <div class="comment">
+          <div class="comment-question">
+            <span> What devices can I use to watch?</span>
+            <span class="toggle-icon">+</span>
+          </div>
+          <div class="comment-answer">
+            You can watch on any device — phone, tablet, laptop, smart TV, or
+            gaming console — as long as it has a web browser!
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <img src="img/logo.png" alt="" />
+        <div class="rejoind">
+          <span class="line"></span>
+          <h2>Join Now</h2>
+          <span class="line"></span>
+        </div>
+        <div class="social_media">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-pinterest"></i>
+        </div>
+        <div class="detais">
+          <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Privacy Policy</li>
+            <li>Terms & Conditions</li>
+          </ul>
+        </div>
+
+        <p>&copy;2025 copyright</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
