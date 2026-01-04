@@ -1,1 +1,3 @@
 test4.html
+*.tarmez 
+//all files finished by .tarmez likw aziz.tarmez will be ignore 
